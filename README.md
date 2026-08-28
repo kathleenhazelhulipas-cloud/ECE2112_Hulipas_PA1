@@ -13,7 +13,8 @@ At the end of this laboratory activity, the student should be able to:
 A. WORD ROTATION PROBLEM
 ---
 Create a function named rotate_word() that accepts a non-empty string. Move the first character of the string to the end while keeping all remaining characters in their original order. Preserve the capitalization of every character. 
-<br>**Function format:** rotate_word(text)
+
+**Function format:** rotate_word(text)
 
 The following function and methods were used in this problem:
 - `len()` - a string method used to count the total amount of characters
@@ -60,7 +61,7 @@ Create a function named make_username() that accepts two strings: first name and
   3. remove all spaces from the last name; and
   4. join the processed first and last names using one period (.).
 
-**Function format:** make username(first_name, last_name)
+**Function format:** make_username(first_name, last_name)
 
 The following function and methods were used in this problem:
 - `.lower()` - a string method used to change all characters into lowercase
@@ -102,7 +103,8 @@ Create a function named swap_bookends() that accepts a list containing at least 
 - last – the last element.
 
 Using these variables, return a new list in which the first and last elements have exchanged positions. The elements in middle must remain in their original order. Do not modify the input list.
-<br>**Function format:** swap_bookends(items)
+
+**Function format:** swap_bookends(items)
 
 The following function and methods were used in this problem:
 - Extended Sequence Unpacking `first, *middle, last = items`
