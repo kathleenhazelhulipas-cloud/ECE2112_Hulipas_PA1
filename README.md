@@ -155,7 +155,7 @@ num = int(input("enter number of inputs: "))
 i = 0
 y = []
 while i < num:
-    x = input("enter a string: ")
+    x = input("enter an item: ")
     y.append(x)
     i += 1
 
