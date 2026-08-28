@@ -119,6 +119,13 @@ print(swap_bookends(["red", "green", "blue"]))
 print(swap_bookends([8, 3]))
 ```
 
+### Examples
+```python
+swap_bookends([1, 2, 3, 4, 5, 6]) --> [6, 2, 3, 4, 5, 1]
+swap_bookends(["red", "green", "blue"]) --> ["blue", "green", "red"]
+swap_bookends([8, 3]) --> [3, 8]
+```
+
 Code that accepts string values and prints as a bookend swap:
 ```python
 def swap_bookends(items):
@@ -136,13 +143,18 @@ while i < num:
 print(swap_bookends(y))
 ```
 
-### Examples
+### Example
 ```python
-swap_bookends([1, 2, 3, 4, 5, 6]) --> [6, 2, 3, 4, 5, 1]
-swap_bookends(["red", "green", "blue"]) --> ["blue", "green", "red"]
-swap_bookends([8, 3]) --> [3, 8]
+enter number of inputs:  7
+enter a string:  red
+enter a string:  orange
+enter a string:  yellow
+enter a string:  green
+enter a string:  blue
+enter a string:  indigo
+enter a string:  violet
+['violet', 'orange', 'yellow', 'green', 'blue', 'indigo', 'red']
 ```
-
 
 ## **README file Version History:**
 - August 28, 2026 - Initial README Content uploaded
