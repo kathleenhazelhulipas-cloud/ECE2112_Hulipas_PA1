@@ -108,7 +108,32 @@ The following function and methods were used in this problem:
 
 These methods were used to create a single function that interchanges the position of the first and last index while the remaining characters stay the same:
 ```python
+def swap_bookends(items):
+    first, *middle, last = items
+    return [last] + middle + [first]
 
+str(input("enter numbers:")
+
+print(swap_bookends([1, 2, 3, 4, 5, 6]))
+print(swap_bookends(["red", "green", "blue"]))
+print(swap_bookends([8, 3]))
+```
+
+Code that accepts string values and prints as a bookend swap:
+```
+def swap_bookends(items):
+    first, *middle, last = items
+    return [last] + middle + [first]
+
+num = int(input("enter number of inputs: "))
+i = 0
+y = []
+while i < num:
+    x = input("enter a string: ")
+    y.append(x)
+    i += 1
+
+print(swap_bookends(y))
 ```
 
 ### Examples
