@@ -165,13 +165,13 @@ print(swap_bookends(y))
 ### Example
 ```python
 enter number of inputs:  7
-enter a string:  red
-enter a string:  orange
-enter a string:  yellow
-enter a string:  green
-enter a string:  blue
-enter a string:  indigo
-enter a string:  violet
+enter an item:  red
+enter an item:  orange
+enter an item:  yellow
+enter an item:  green
+enter an item:  blue
+enter an item:  indigo
+enter an item:  violet
 ['violet', 'orange', 'yellow', 'green', 'blue', 'indigo', 'red']
 ```
 
