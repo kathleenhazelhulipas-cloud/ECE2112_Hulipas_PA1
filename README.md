@@ -120,7 +120,7 @@ print(swap_bookends([8, 3]))
 ```
 
 Code that accepts string values and prints as a bookend swap:
-```
+```python
 def swap_bookends(items):
     first, *middle, last = items
     return [last] + middle + [first]
