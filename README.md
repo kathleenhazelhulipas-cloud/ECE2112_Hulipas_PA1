@@ -105,7 +105,25 @@ Using these variables, return a new list in which the first and last elements ha
 <br>**Function format:** swap_bookends(items)
 
 The following function and methods were used in this problem:
+- Extended Sequence Unpacking `first, *middle, last = items`
+  - first - gets index zero (0)
+  - *middle - combines all intermediate values
+  - last - gets the last index (-1)
 
+  Example:
+   <br> `z = ["1", "2", "3", "4"]`
+   <br> `first, *middle, last = z`
+   <br> first --> "1"
+   <br> *middle --> ["2", "3"]
+   <br> last --> "4"
+
+For manually inputting list items:
+ - `.append()` used to add elements into the list
+
+   Example:
+   <br> `x = ["apple", "banana"]`
+   <br> `x.append("cherry")`
+   <br> `x` --> ["apple", "banana", "cherry"]
 
 These methods were used to create a single function that interchanges the position of the first and last index while the remaining characters stay the same:
 ```python
