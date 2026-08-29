@@ -174,6 +174,9 @@ enter an item:  indigo
 enter an item:  violet
 ['violet', 'orange', 'yellow', 'green', 'blue', 'indigo', 'red']
 ```
+---
+To view the program for PA1: download [ECE2112_PA1](https://github.com/kathleenhazelhulipas-cloud/ECE2112_Hulipas_PA1/blob/main/PA1.ipynb), open on Jupyter Notebook, and run all cells.
 
 ## **README file Version History:**
 - August 28, 2026 - Initial README Content uploaded
+- August 29, 2026 - Included PA1 Program to the README file
